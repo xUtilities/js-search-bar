@@ -43,7 +43,19 @@ input {
   display: none;
 }
   </style>
-  <script>
+  <title>Document</title>
+</head>
+<body>
+  <div class="search-wrapper">
+    <label for="search">Search Users</label>
+    <input type="search" id="search" data-search>
+  </div>
+  <div class="user-cards" data-user-cards-container></div>
+  <template data-user-template>
+  <div class="card">
+    <a href="#" class="header" data-header></a>
+  </div>
+    <script>
     const userCardTemplate = document.querySelector("[data-user-template]")
 const userCardContainer = document.querySelector("[data-user-cards-container]")
 const searchInput = document.querySelector("[data-search]")
@@ -91,18 +103,6 @@ searchInput.addEventListener("input", e => {
   }
 })
   </script>
-  <title>Document</title>
-</head>
-<body>
-  <div class="search-wrapper">
-    <label for="search">Search Users</label>
-    <input type="search" id="search" data-search>
-  </div>
-  <div class="user-cards" data-user-cards-container></div>
-  <template data-user-template>
-  <div class="card">
-    <a href="#" class="header" data-header></a>
-  </div>
 </template>
 </body>
 </html>
