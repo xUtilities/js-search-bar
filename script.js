@@ -12,7 +12,8 @@ fetch("https://xutilities.github.io/js-search-bar/database.json")
       const card = userCardTemplate.content.cloneNode(true).children[0]
       const header = card.querySelector("[data-header]")
       header.textContent = user.name
-      header.href = `https://example.com/${user.name.replace(/\s+/g, '-').toLowerCase()}`
+      // Remove or comment out the line below to remove the links
+      // header.href = `https://example.com/${user.name.replace(/\s+/g, '-').toLowerCase()}`
 
       // Initially hide the card by adding the hide class
       card.classList.add("hide")
