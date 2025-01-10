@@ -1,3 +1,6 @@
+.hide {
+  display: none;
+}
 .search-wrapper {
   display: flex;
   flex-direction: column;
