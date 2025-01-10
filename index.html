@@ -3,46 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <style>
-    .hide {
-  display: none;
-}
-.search-wrapper {
-  display: flex;
-  flex-direction: column;
-  gap: .25rem;
-}
-
-input {
-  font-size: 1rem;
-}
-
-.user-cards {
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  gap: .25rem;
-  margin-top: 1rem;
-}
-
-.card {
-  border: 1px solid black;
-  background-color: white;
-  padding: .5rem;
-}
-
-.card > .header {
-  margin-bottom: .25rem;
-}
-
-.card > .body {
-  font-size: .8rem;
-  color: #777;
-}
-
-.hide {
-  display: none;
-}
-  </style>
+  <link rel="stylesheet" href="styles.css">
+  <script src="script.js" defer></script>
   <title>Document</title>
 </head>
 <body>
@@ -55,54 +17,6 @@ input {
   <div class="card">
     <a href="#" class="header" data-header></a>
   </div>
-    <script>
-    const userCardTemplate = document.querySelector("[data-user-template]")
-const userCardContainer = document.querySelector("[data-user-cards-container]")
-const searchInput = document.querySelector("[data-search]")
-
-let users = []
-
-// Fetch and create user cards, initially hide them
-fetch("https://xutilities.github.io/js-search-bar/database.json")
-  .then(res => res.json())
-  .then(data => {
-    users = data.map(user => {
-      const card = userCardTemplate.content.cloneNode(true).children[0]
-      const header = card.querySelector("[data-header]")
-      header.textContent = user.name
-      // Remove or comment out the line below to remove the links
-      // header.href = `https://example.com/${user.name.replace(/\s+/g, '-').toLowerCase()}`
-
-      // Initially hide the card by adding the hide class
-      card.classList.add("hide")
-
-      userCardContainer.append(card)
-
-      return { name: user.name, element: card }
-    })
-  })
-  .catch(error => {
-    console.error("Error fetching user data:", error)
-  })
-
-// Handle search input and toggle visibility of matching cards
-searchInput.addEventListener("input", e => {
-  const value = e.target.value.toLowerCase()
-  
-  // If the search query is empty, hide all cards
-  if (value === "") {
-    users.forEach(user => {
-      user.element.classList.add("hide") // Hide all cards when search is empty
-    })
-  } else {
-    // Otherwise, filter the cards based on the search term
-    users.forEach(user => {
-      const isVisible = user.name.toLowerCase().includes(value)
-      user.element.classList.toggle("hide", !isVisible)
-    })
-  }
-})
-  </script>
 </template>
 </body>
 </html>
