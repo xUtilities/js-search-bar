@@ -1,9 +1,5 @@
 [
   {
-    "name": "1v1.LOL",
-    "link": "https://xutilities.github.io/play/1v1lol"
-  },
-  {
     "name": "SLOPE",
     "link": "https://xutilities.github.io/play/slope"
   },
@@ -12,16 +8,8 @@
     "link": "https://xutilities.github.io/play/run3"
   },
   {
-    "name": "Minecraft",
-    "link": "https://xutilities.github.io/play/minecraft"
-  },
-  {
     "name": "Subway Surfers",
     "link": "https://xutilities.github.io/play/subwaysurfers"
-  },
-  {
-    "name": "Crossy Road",
-    "link": "https://xutilities.github.io/play/crossyroad"
   },
   {
     "name": "Temple Run",
@@ -38,5 +26,137 @@
   {
     "name": "Stickman Hook",
     "link": "https://xutilities.github.io/play/helixjump"
+  },
+  {
+    "name": "Flappy Bird",
+    "link": "https://xutilities.github.io/play/flappybird"
+  },
+  {
+    "name": "tetris",
+    "link": "https://xutilities.github.io/play/tetris"
+  },
+  {
+    "name": "2048",
+    "link": "https://xutilities.github.io/play/2048"
+  },
+  {
+    "name": "Block Blast",
+    "link": "https://xutilities.github.io/play/blockblast"
+  },
+  {
+    "name": "Chess",
+    "link": "https://xutilities.github.io/play/chess"
+  },
+  {
+    "name": "Fireboy & Watergirl",
+    "link": "https://xutilities.github.io/play/fireboyandwatergirl"
+  },
+  {
+    "name": "Vex4",
+    "link": "https://xutilities.github.io/play/vex4"
+  },
+  {
+    "name": "Paper.io",
+    "link": "https://xutilities.github.io/play/paperio"
+  },
+  {
+    "name": "Red Ball 4",
+    "link": "https://xutilities.github.io/play/redball4"
+  },
+  {
+    "name": "Basketball Legends",
+    "link": "https://xutilities.github.io/play/basketballlegends"
+  },
+  {
+    "name": "Retro Bowl",
+    "link": "https://xutilities.github.io/play/retrobowl"
+  },
+  {
+    "name": "Basketball Stars",
+    "link": "https://xutilities.github.io/play/basketballstars"
+  },
+  {
+    "name": "Soccer Stars",
+    "link": "https://xutilities.github.io/play/soccerstars"
+  },
+  {
+    "name": "Football Legends",
+    "link": "https://xutilities.github.io/play/foorballlegends"
+  },
+  {
+    "name": "Bike Rush",
+    "link": "https://xutilities.github.io/play/bikerush"
+  },
+  {
+    "name": "Drift Boss",
+    "link": "https://xutilities.github.io/play/helixjump"
+  },
+  {
+    "name": "Medalin Stunt Cars 3",
+    "link": "https://xutilities.github.io/play/medalinstuntcars3"
+  },
+  {
+    "name": "1v1.LOL",
+    "link": "https://xutilities.github.io/play/1v1lol"
+  },
+  {
+    "name": "Buildnow.GG",
+    "link": "https://xutilities.github.io/play/buildnowgg"
+  },
+  {
+    "name": "Deadshot",
+    "link": "https://xutilities.github.io/play/deadshot"
+  },
+  {
+    "name": "Friday Night Funkin",
+    "link": "https://xutilities.github.io/play/fnf"
+  },
+  {
+    "name": "Fruit Ninja",
+    "link": "https://xutilities.github.io/play/fruitninja"
+  },
+  {
+    "name": "Justfall.LOL",
+    "link": "https://xutilities.github.io/play/justfalllol"
+  },
+  {
+    "name": "Smash Karts",
+    "link": "https://xutilities.github.io/play/smashkarts"
+  },
+  {
+    "name": "Krunker.io",
+    "link": "https://xutilities.github.io/play/krunkerio"
+  },
+  {
+    "name": "Minecraft",
+    "link": "https://xutilities.github.io/play/minecraft"
+  },
+  {
+    "name": "Crossy Road",
+    "link": "https://xutilities.github.io/play/crossyroad"
+  },
+  {
+    "name": "Slither.io",
+    "link": "https://xutilities.github.io/play/slitherio"
+  },
+  {
+    "name": "Agar.io",
+    "link": "https://xutilities.github.io/play/agar-io"
+  },
+  {
+    "name": "Hole.io",
+    "link": "https://xutilities.github.io/play/holeio"
+  },
+  {
+    "name": "Aquapark.io",
+    "link": "https://xutilities.github.io/play/aquaparkio"
+  },
+  {
+    "name": "Jetpack Joyride",
+    "link": "https://xutilities.github.io/play/jetpackjoyride"
+  },
+  {
+    "name": "Moto MX3",
+    "link": "https://xutilities.github.io/play/motomx3"
   }
 ]
