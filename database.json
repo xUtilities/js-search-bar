@@ -25,19 +25,11 @@
   },
   {
     "name": "Stickman Hook",
-    "link": "https://xutilities.github.io/play/helixjump"
+    "link": "https://xutilities.github.io/play/stickmanhook"
   },
   {
     "name": "Flappy Bird",
     "link": "https://xutilities.github.io/play/flappybird"
-  },
-  {
-    "name": "tetris",
-    "link": "https://xutilities.github.io/play/tetris"
-  },
-  {
-    "name": "2048",
-    "link": "https://xutilities.github.io/play/2048"
   },
   {
     "name": "Block Blast",
@@ -89,7 +81,7 @@
   },
   {
     "name": "Drift Boss",
-    "link": "https://xutilities.github.io/play/helixjump"
+    "link": "https://xutilities.github.io/play/driftboss"
   },
   {
     "name": "Medalin Stunt Cars 3",
